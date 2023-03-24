@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Faster+One&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Audiowide', cursive;
+}
+
+body {
+  height: 100vh;
+  background: rgb(17, 95, 107);
+  background: radial-gradient(
+    circle,
+    rgba(17, 95, 107, 1) 0%,
+    rgba(9, 9, 121, 1) 50%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.timer {
+  font-size: 4rem;
+  color: white;
+  text-shadow: rgba(255, 255, 255, 1) 0px 0px 7px;
+  margin: 10px;
+}
+
+#start-button,
+#pause-button,
+#restart-button {
+  padding: 5px;
+  color: white;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  cursor: pointer;
+}
